@@ -1,4 +1,7 @@
 // Main.java
+// Name: Shriyans Sahoo
+// PRN: 23070126125
+// Batch: AIML-B2
 
 import java.util.Scanner;
 
