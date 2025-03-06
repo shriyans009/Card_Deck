@@ -41,6 +41,16 @@ class Deck{
         }
     }
 
+	public void sameCard(String suit) {
+        System.out.println("Cards with suit: " + suit);
+        for (Card card : deck) {
+            if (card.suit.equalsIgnoreCase(suit)) {
+                System.out.println(card);
+            }
+        }
+    }
+
+
 
 	public void pickTwo(){
 		System.out.println("");
