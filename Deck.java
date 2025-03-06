@@ -33,6 +33,15 @@ class Deck{
 		Collections.shuffle(deck);
 	}
 
+	public void printCard(int index) {
+        if (index >= 0 && index < deck.size()) {
+            System.out.println("Selected Card: " + deck.get(index));
+        } else {
+            System.out.println("Invalid card index!");
+        }
+    }
+
+
 	public void pickTwo(){
 		System.out.println("");
 	}
